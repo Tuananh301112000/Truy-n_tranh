@@ -1,0 +1,159 @@
+
+body{
+	padding: 0;
+	margin: 0;
+}
+.container{
+	width: 1000px;
+	height: auto;
+	margin: 0 auto;
+}
+.navbar{
+	width: 100%;
+	height: 50px;
+}
+.navbar img{
+	cursor: pointer;
+	float: left;
+	padding: 10px;
+}
+.navbar input{
+	font-size: 15px;
+	float: left;
+	width: 250px;
+	height: 30px;
+	margin-left: 40px;
+	margin-top: 5px;
+}
+.navbar ul{
+	list-style-type: none;
+	float: right;
+	margin-right: 40px;
+}
+.navbar ul li{
+	float: left;
+}
+.navbar ul li a{
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+
+}
+.menu{
+	width: 100%;
+	height: 50px;
+	background-color: #e4e4e4;
+}
+.menu ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+.menu ul li{
+    margin-left: 20px;
+    color: #565656;
+	line-height: 50px;
+	float: left;
+}
+.menu ul li:hover{
+    background-color: white;
+    color:#ae4ad9 ;
+}
+.container .main{
+    width: 100%;
+    height: 350px;
+}
+.container .main h2{
+    margin: 0;
+    padding: 0;
+    padding: 10px;
+}
+.main img{
+    float: left;
+    margin-left: 10px;
+}
+
+.footer_left{
+    width: 60%;
+    height: auto;
+    float: left;
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    grid-template-rows: 150px;
+    
+}
+.footer_left .item{
+    padding: 10px;
+}
+.footer_left .item p{
+    margin-left: 10px;
+}
+.footer_left .item img{
+    border-radius:5px;
+    margin-left: 10px;   
+}
+.footer_right{
+    width: 30%;
+    height: auto;
+    float:right;
+    border:1px solid rgb(231, 221, 221) ;
+}
+.footer_right .top ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer_right .top ul li{
+    float: left;
+    padding: 10px 20px 10px 16.4px;
+    cursor: pointer;
+    background-color: #ecf0f1;
+}
+.footer_right .top ul li:hover{
+    border-top: 2px solid #721799;
+}
+.footer_right .list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer_right .list ul li{
+    clear: left;
+    margin-bottom: 10px;
+    float: left;
+    border-bottom: 1px solid rgb(231, 221, 221);
+    padding: 10px 20px 10px 16.4px;
+}
+.footer_right .list img{
+    float: left;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+.footer_right .list ul a{
+    text-decoration: none;
+    color:black;
+}
+.footer_right .list ul span{
+    font-size: 20px;
+    color: #429ddc;
+    float: left;
+    padding-right: 5px;
+}
+.footer_right .list ul a:hover{
+    color:#479ae0 ;
+}
+.duoi{
+    width: 100%;
+    height: 150px;
+    background-color:black;
+    clear: both;
+ 
+}
+.duoi .duoi_1{
+    width: 1000px;
+    height: auto;
+    background-color: blue;
+}
